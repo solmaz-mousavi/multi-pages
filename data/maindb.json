@@ -16,9 +16,9 @@
     },
 		{
 			"id": "02" ,
-      "title": "/multi-pages/Pato",
+      "title": "Pato",
       "image": "assets/images/main/pato.png",
-      "route": "pato/",
+      "route": "/multi-pages/pato/",
 			"description":"a restaurant page - created by 50lm@2",
       "packages": ["javascript", "reactJS", "typescript", "sass"]
     },		
