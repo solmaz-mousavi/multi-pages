@@ -31,21 +31,21 @@
   "slides": [
     {
       "id": "01",
-      "image": "/assets/images/pato/home/slider/slide01.jpg",
+      "image": "assets/images/pato/home/slider/slide01.jpg",
       "title": "welcome to",
       "desc": "pato place",
       "button": { "title": "look menu", "navigate": "/pato/menu" }
     },
     {
       "id": "02",
-      "image": "/assets/images/pato/home/slider/slide02.jpg",
+      "image": "/multi-pages/assets/images/pato/home/slider/slide02.jpg",
       "title": "know about us",
       "desc": "pato place",
       "button": { "title": "about us", "navigate": "/pato/about" }
     },
     {
       "id": "03",
-      "image": "/assets/images/pato/home/slider/slide03.jpg",
+      "image": "assets/images/pato/home/slider/slide03.jpg",
       "title": "have a look to",
       "desc": "pato place",
       "button": { "title": "look gallery", "navigate": "/pato/gallery" }
