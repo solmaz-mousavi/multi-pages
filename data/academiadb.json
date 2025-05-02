@@ -39,19 +39,19 @@
       "id": "01",
       "title": "Online Courses",
       "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      "image": "/assets/images/academia/flaticons/aqua/e-learning.png"
+      "image": "assets/images/academia/flaticons/aqua/e-learning.png"
     },
     {
       "id": "02",
       "title": "Earn A Certificate",
       "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      "image": "/assets/images/academia/flaticons/aqua/certificate.png"
+      "image": "assets/images/academia/flaticons/aqua/certificate.png"
     },
     {
       "id": "03",
       "title": "Learn with Experts",
       "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      "image": "/assets/images/academia/flaticons/aqua/scientist.png"
+      "image": "assets/images/academia/flaticons/aqua/scientist.png"
     }
   ],
   "status": [
@@ -59,25 +59,25 @@
       "id": "01",
       "title": "Professionals",
       "number": 4,
-      "image": "/assets/images/academia/flaticons/white/businessman.png"
+      "image": "assets/images/academia/flaticons/white/businessman.png"
     },
     {
       "id": "02",
       "title": "Courses",
       "number": 10,
-      "image": "/assets/images/academia/flaticons/white/learning.png"
+      "image": "assets/images/academia/flaticons/white/learning.png"
     },
     {
       "id": "03",
       "title": "Students",
       "number": 21,
-      "image": "/assets/images/academia/flaticons/white/graduated.png"
+      "image": "assets/images/academia/flaticons/white/graduated.png"
     },
     {
       "id": "04",
       "title": "articles",
       "number": 16,
-      "image": "/assets/images/academia/flaticons/white/newspaper.png"
+      "image": "assets/images/academia/flaticons/white/newspaper.png"
     }
 
   ],
@@ -86,7 +86,7 @@
       "id": "01",
       "name": "Dr. Adrian Molises",
       "education": "Ph.D on Data Science",
-			"image":"/assets/images/academia/team/team-1.jpg",
+			"image":"assets/images/academia/team/team-1.jpg",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend, leo nec blandit sagittis, velit velit ultrices dui, eu pretium arcu enim vel ligula. Mauris dolor nisl, luctus at auctor ac, porttitor id ipsum. Sed ut eros vel sem tempor suscipit. Proin vitae ipsum ex. Nam fringilla magna non massa ullamcorper viverra. Nullam eget sapien sem. Phasellus faucibus metus vitae lobortis cursus. In dapibus lacinia nulla eu eleifend. Aenean pellentesque, neque vitae lobortis interdum, mauris orci efficitur risus, vestibulum sodales lectus est eget odio. Etiam nulla diam, consectetur eu varius sit amet, fringilla ac ligula. Curabitur faucibus nulla non diam egestas, vel molestie metus feugiat. Aliquam facilisis purus non quam bibendum congue id ut ipsum. Cras auctor urna justo, ac tempor nisl semper sit amet.",
       "social": [
         {
@@ -113,7 +113,7 @@
       "id": "02",
       "name": "Arthur MaGregor",
       "education": "Full Stack Developer",
-			"image":"/assets/images/academia/team/team-2.jpg",
+			"image":"assets/images/academia/team/team-2.jpg",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend, leo nec blandit sagittis, velit velit ultrices dui, eu pretium arcu enim vel ligula. Mauris dolor nisl, luctus at auctor ac, porttitor id ipsum. Sed ut eros vel sem tempor suscipit. Proin vitae ipsum ex. Nam fringilla magna non massa ullamcorper viverra. Nullam eget sapien sem. Phasellus faucibus metus vitae lobortis cursus. In dapibus lacinia nulla eu eleifend. Aenean pellentesque, neque vitae lobortis interdum, mauris orci efficitur risus, vestibulum sodales lectus est eget odio. Etiam nulla diam, consectetur eu varius sit amet, fringilla ac ligula. Curabitur faucibus nulla non diam egestas, vel molestie metus feugiat. Aliquam facilisis purus non quam bibendum congue id ut ipsum. Cras auctor urna justo, ac tempor nisl semper sit amet.",
       "social": [
         {
@@ -134,7 +134,7 @@
       "id": "03",
       "name": "Dr. Anna Hanzen",
       "education": "Ph.d on Developer and Lead Instructor",
-			"image":"/assets/images/academia/team/team-3.jpg",
+			"image":"assets/images/academia/team/team-3.jpg",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend, leo nec blandit sagittis, velit velit ultrices dui, eu pretium arcu enim vel ligula. Mauris dolor nisl, luctus at auctor ac, porttitor id ipsum. Sed ut eros vel sem tempor suscipit. Proin vitae ipsum ex. Nam fringilla magna non massa ullamcorper viverra. Nullam eget sapien sem. Phasellus faucibus metus vitae lobortis cursus. In dapibus lacinia nulla eu eleifend. Aenean pellentesque, neque vitae lobortis interdum, mauris orci efficitur risus, vestibulum sodales lectus est eget odio. Etiam nulla diam, consectetur eu varius sit amet, fringilla ac ligula. Curabitur faucibus nulla non diam egestas, vel molestie metus feugiat. Aliquam facilisis purus non quam bibendum congue id ut ipsum. Cras auctor urna justo, ac tempor nisl semper sit amet.",
       "social": [
 				{
@@ -161,7 +161,7 @@
       "id": "04",
       "name": "Brian Wooden",
       "education": "FrontEnd Developer",
-			"image":"/assets/images/academia/team/team-4.jpg",
+			"image":"assets/images/academia/team/team-4.jpg",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend, leo nec blandit sagittis, velit velit ultrices dui, eu pretium arcu enim vel ligula. Mauris dolor nisl, luctus at auctor ac, porttitor id ipsum. Sed ut eros vel sem tempor suscipit. Proin vitae ipsum ex. Nam fringilla magna non massa ullamcorper viverra. Nullam eget sapien sem. Phasellus faucibus metus vitae lobortis cursus. In dapibus lacinia nulla eu eleifend. Aenean pellentesque, neque vitae lobortis interdum, mauris orci efficitur risus, vestibulum sodales lectus est eget odio. Etiam nulla diam, consectetur eu varius sit amet, fringilla ac ligula. Curabitur faucibus nulla non diam egestas, vel molestie metus feugiat. Aliquam facilisis purus non quam bibendum congue id ut ipsum. Cras auctor urna justo, ac tempor nisl semper sit amet.",
       "social": [
 				{
@@ -186,18 +186,18 @@
     }
   ],
   "categories": [
-		{"id":"01", "title":"Frontend", "image":"/assets/images/academia/flaticons/aqua/front-end-programming.png"},
-		{"id":"02", "title":"Backend", "image":"/assets/images/academia/flaticons/aqua/coding.png"},
-		{"id":"03", "title":"Network", "image":"/assets/images/academia/flaticons/aqua/computer.png"},
-		{"id":"04", "title":"Database", "image":"/assets/images/academia/flaticons/aqua/database-storage.png"},
-		{"id":"05", "title":"AI", "image":"/assets/images/academia/flaticons/aqua/artificial-intelligence.png"}
+		{"id":"01", "title":"Frontend", "image":"assets/images/academia/flaticons/aqua/front-end-programming.png"},
+		{"id":"02", "title":"Backend", "image":"assets/images/academia/flaticons/aqua/coding.png"},
+		{"id":"03", "title":"Network", "image":"assets/images/academia/flaticons/aqua/computer.png"},
+		{"id":"04", "title":"Database", "image":"assets/images/academia/flaticons/aqua/database-storage.png"},
+		{"id":"05", "title":"AI", "image":"assets/images/academia/flaticons/aqua/artificial-intelligence.png"}
 	],
 	"students":[
-{"id":"01", "name":"Jack will", "packages":["02"], "courses":["01", "04"], "image": "/assets/images/academia/student/user1.jpg", "user":"user01", "password":"A123456", "token": "eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0KeyJ1c2VybmFtZSI6ImFkbWluaW5pc3RyYXRv"},
-{"id":"02", "name":"Bill Brown", "packages":[], "courses":["02", "03", "04", "05"], "image": "/assets/images/academia/student/user2.jpg", "user":"user02", "password":"A123456", "token": "ciIsImlzX2FkbWluIjp0cnVlLCJpYXQiOjE1MTYyMzkwMjIsImV4cCI6MTUxNjI0MjYyMn0"},
-{"id":"03", "name":"Tyler Landry", "packages":[], "courses":["06", "08", "09","10"], "image": "/assets/images/academia/student/user3.jpg", "user":"user03", "password":"A123456", "token": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikp"},
-{"id":"04", "name":"Florence Brock", "packages":["01", "03"], "courses":["05", "06"], "image": "/assets/images/academia/student/user4.jpg", "user":"user04", "password":"A123456", "token": "vaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0owv7q9nVbW5tqUezF_G2"},
-{"id":"05", "name":"Khalil Lee", "packages":[], "courses":["01","10"], "image": "/assets/images/academia/student/user5.jpg", "user":"user05", "password":"A123456", "token": "UZu_wJHkZiKBL67j8_61L6SXswzPAQu4kVDwAefGf5hyYBUM_80vYZwWPEpLI8K4yCBsF6I9N1yQ"},
+{"id":"01", "name":"Jack will", "packages":["02"], "courses":["01", "04"], "image": "assets/images/academia/student/user1.jpg", "user":"user01", "password":"A123456", "token": "eyJhbGciOiAibm9uZSIsICJ0eXAiOiAiSldUIn0KeyJ1c2VybmFtZSI6ImFkbWluaW5pc3RyYXRv"},
+{"id":"02", "name":"Bill Brown", "packages":[], "courses":["02", "03", "04", "05"], "image": "assets/images/academia/student/user2.jpg", "user":"user02", "password":"A123456", "token": "ciIsImlzX2FkbWluIjp0cnVlLCJpYXQiOjE1MTYyMzkwMjIsImV4cCI6MTUxNjI0MjYyMn0"},
+{"id":"03", "name":"Tyler Landry", "packages":[], "courses":["06", "08", "09","10"], "image": "assets/images/academia/student/user3.jpg", "user":"user03", "password":"A123456", "token": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikp"},
+{"id":"04", "name":"Florence Brock", "packages":["01", "03"], "courses":["05", "06"], "image": "assets/images/academia/student/user4.jpg", "user":"user04", "password":"A123456", "token": "vaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0owv7q9nVbW5tqUezF_G2"},
+{"id":"05", "name":"Khalil Lee", "packages":[], "courses":["01","10"], "image": "assets/images/academia/student/user5.jpg", "user":"user05", "password":"A123456", "token": "UZu_wJHkZiKBL67j8_61L6SXswzPAQu4kVDwAefGf5hyYBUM_80vYZwWPEpLI8K4yCBsF6I9N1yQ"},
 {"id":"06", "name":"Dennis Dickerson", "packages":[], "courses":["01", "04", "02"], "image": "", "user":"user06", "password":"A123456", "token": "aZAJmkMp_Iw371Menae4Mp4JusvBJS_s6LrmG2QbiZaFaxVJiW8K"},
 {"id":"07", "name":"Heath Sears", "packages":[], "courses":["01", "04","10"], "image": "", "user":"user07", "password":"A123456", "token": "eyJhbGciOiJSUzM4NCIsInR5cCI6IkpXVCJ9eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ikp"},
 {"id":"08", "name":"Darcey Andersen", "packages":["02"], "courses":["07", "04"], "image": "", "user":"user08", "password":"A123456", "token": "vaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0o1hC1xYbJolSyh0_bOY"},
@@ -229,14 +229,14 @@
 			"discount": 10,
 			"categories":["01", "05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"04", "role":"student", "date":"2024-05-24", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"},
@@ -255,21 +255,21 @@
 			"discount": 30,
 			"categories":["01", "05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"13", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"14", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"15", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo3.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"13", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo.mp4"},
+				{"id":"14", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"15", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo3.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"02", "role":"teacher", "date":"2024-05-24", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"},
@@ -288,18 +288,18 @@
 			"discount": 20,
 			"categories":["02", "05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo3.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo3.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"14", "role":"student", "date":"2024-11-19", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"}
@@ -316,12 +316,12 @@
 			"discount": 0,
 			"categories":["02", "05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"02", "role":"teacher", "date":"2024-05-24", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"},
@@ -340,16 +340,16 @@
 			"discount": 30,
 			"categories":["01", "02", "05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"02", "role":"teacher", "date":"2024-05-24", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"},
@@ -367,11 +367,11 @@
 			"discount": 10,
 			"categories":["03", "05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"}
 			],
 			"comments":[]
     },
@@ -386,16 +386,16 @@
 			"discount": 0,
 			"categories":["05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"02", "role":"teacher", "date":"2024-05-24", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"},
@@ -417,18 +417,18 @@
 			"discount": 10,
 			"categories":["02", "04"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo3.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo3.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"02", "role":"teacher", "date":"2024-05-24", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"},
@@ -447,10 +447,10 @@
 			"discount": 0,
 			"categories":["03", "05"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"}
 			],
 			"comments":[
 				{"id":"01", "userID":"02", "role":"teacher", "date":"2024-05-24", "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend"},
@@ -468,21 +468,21 @@
 			"discount": 25,
 			"categories":["02", "04"],
 			"lectures":[
-				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"/assets/videos/testVideo3.mp4"},
-				{"id":"13", "title":"Consectetur adipiscing elit", "duration":13, "video":"/assets/videos/testVideo.mp4"},
-				{"id":"14", "title":"Vivamus eleifend", "duration":8, "video":"/assets/videos/testVideo2.mp4"},
-				{"id":"15", "title":"Leo nec blandit sagittis", "duration":11, "video":"/assets/videos/testVideo3.mp4"}
+				{"id":"01", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo.mp4"},
+				{"id":"02", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"03", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"04", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo.mp4"},
+				{"id":"05", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"06", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"07", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"08", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"09", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"10", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo.mp4"},
+				{"id":"11", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"12", "title":"Lorem ipsum dolor sit amet", "duration":16, "video":"assets/videos/testVideo3.mp4"},
+				{"id":"13", "title":"Consectetur adipiscing elit", "duration":13, "video":"assets/videos/testVideo.mp4"},
+				{"id":"14", "title":"Vivamus eleifend", "duration":8, "video":"assets/videos/testVideo2.mp4"},
+				{"id":"15", "title":"Leo nec blandit sagittis", "duration":11, "video":"assets/videos/testVideo3.mp4"}
 			],
 			"comments":[]
     }
@@ -492,7 +492,7 @@
       "id": "01",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_1.jpg",
+      "image": "assets/images/academia/blog/image_1.jpg",
       "date": "2024-11-21",
       "author": "Admin",
 			"comments":[
@@ -505,7 +505,7 @@
       "id": "02",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_2.jpg",
+      "image": "assets/images/academia/blog/image_2.jpg",
       "date": "2024-10-02",
       "author": "Gooj",
 			"comments":[
@@ -521,7 +521,7 @@
       "id": "03",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_3.jpg",
+      "image": "assets/images/academia/blog/image_3.jpg",
       "date": "2024-09-03",
       "author": "Admin",
 			"comments":[
@@ -536,7 +536,7 @@
       "id": "04",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_4.jpg",
+      "image": "assets/images/academia/blog/image_4.jpg",
       "date": "2024-08-30",
       "author": "Jamie",
 			"comments":[
@@ -550,7 +550,7 @@
       "id": "05",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_1.jpg",
+      "image": "assets/images/academia/blog/image_1.jpg",
       "date": "2024-11-21",
       "author": "Admin",
 			"comments":[
@@ -563,7 +563,7 @@
       "id": "06",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_2.jpg",
+      "image": "assets/images/academia/blog/image_2.jpg",
       "date": "2024-10-02",
       "author": "Gooj",
 			"comments":[
@@ -579,7 +579,7 @@
       "id": "07",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_3.jpg",
+      "image": "assets/images/academia/blog/image_3.jpg",
       "date": "2024-09-03",
       "author": "Admin",
 			"comments":[
@@ -594,7 +594,7 @@
       "id": "08",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_4.jpg",
+      "image": "assets/images/academia/blog/image_4.jpg",
       "date": "2024-08-30",
       "author": "Jamie",
 			"comments":[
@@ -608,7 +608,7 @@
       "id": "09",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_1.jpg",
+      "image": "assets/images/academia/blog/image_1.jpg",
       "date": "2024-11-21",
       "author": "Admin",
 			"comments":[
@@ -621,7 +621,7 @@
       "id": "10",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_2.jpg",
+      "image": "assets/images/academia/blog/image_2.jpg",
       "date": "2024-10-02",
       "author": "Gooj",
 			"comments":[
@@ -637,7 +637,7 @@
       "id": "11",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_3.jpg",
+      "image": "assets/images/academia/blog/image_3.jpg",
       "date": "2024-09-03",
       "author": "Admin",
 			"comments":[
@@ -652,7 +652,7 @@
       "id": "12",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_4.jpg",
+      "image": "assets/images/academia/blog/image_4.jpg",
       "date": "2024-08-30",
       "author": "Jamie",
 			"comments":[
@@ -666,7 +666,7 @@
       "id": "13",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_1.jpg",
+      "image": "assets/images/academia/blog/image_1.jpg",
       "date": "2024-11-21",
       "author": "Admin",
 			"comments":[
@@ -679,7 +679,7 @@
       "id": "14",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_2.jpg",
+      "image": "assets/images/academia/blog/image_2.jpg",
       "date": "2024-10-02",
       "author": "Gooj",
 			"comments":[
@@ -695,7 +695,7 @@
       "id": "15",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_3.jpg",
+      "image": "assets/images/academia/blog/image_3.jpg",
       "date": "2024-09-03",
       "author": "Admin",
 			"comments":[
@@ -710,7 +710,7 @@
       "id": "16",
       "title": "Build your Dream Software & Engineering Career",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget mi sem. Nulla facilisi. Sed ultricies eros a nibh tempus, in sodales mi vestibulum. Nullam quis dui ac nisl ultrices euismod et sit amet urna. Morbi semper sapien quis ex tempor, sit amet scelerisque eros rhoncus. Cras scelerisque auctor gravida. Nunc fermentum luctus rhoncus. Nulla vulputate fermentum convallis. In quis pellentesque tortor. Cras metus nibh, gravida vitae ante vel, finibus semper tellus. Nulla vel tincidunt magna. Morbi tempor velit lectus, eu commodo quam volutpat vitae.",
-      "image": "/assets/images/academia/blog/image_4.jpg",
+      "image": "assets/images/academia/blog/image_4.jpg",
       "date": "2024-08-30",
       "author": "Jamie",
 			"comments":[
