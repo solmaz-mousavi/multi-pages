@@ -34,21 +34,21 @@
       "image": "/multi-pages/assets/images/pato/home/slider/slide01.jpg",
       "title": "welcome to",
       "desc": "pato place",
-      "button": { "title": "look menu", "navigate": "/pato/menu" }
+      "button": { "title": "look menu", "navigate": "/multi-pages/pato/menu" }
     },
     {
       "id": "02",
       "image": "/multi-pages/assets/images/pato/home/slider/slide02.jpg",
       "title": "know about us",
       "desc": "pato place",
-      "button": { "title": "about us", "navigate": "/pato/about" }
+      "button": { "title": "about us", "navigate": "/multi-pages/pato/about" }
     },
     {
       "id": "03",
       "image": "/multi-pages/assets/images/pato/home/slider/slide03.jpg",
       "title": "have a look to",
       "desc": "pato place",
-      "button": { "title": "look gallery", "navigate": "/pato/gallery" }
+      "button": { "title": "look gallery", "navigate": "/multi-pages/pato/gallery" }
     }
   ],
   "intro": [
@@ -57,21 +57,21 @@
       "title": "romantic restaurant",
       "image": "/multi-pages/assets/images/pato/home/intro/intro-01.jpg",
       "desc": "Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.",
-      "route": "/pato/blog"
+      "route": "/multi-pages/pato/blog"
     },
     {
       "id": "02",
       "title": "Delicious Food",
       "image": "/multi-pages/assets/images/pato/home/intro/intro-02.jpg",
       "desc": "Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna.",
-      "route": "/pato/blog"
+      "route": "/multi-pages/pato/blog"
     },
     {
       "id": "03",
       "title": "Red Wines You Love",
       "image": "/multi-pages/assets/images/pato/home/intro/intro-03.jpg",
       "desc": "Sed ornare ligula eget tortor tempor, quis porta tellus dictum.",
-      "route": "/pato/blog"
+      "route": "/multi-pages/pato/blog"
     }
   ],
   "blogCategory": [
