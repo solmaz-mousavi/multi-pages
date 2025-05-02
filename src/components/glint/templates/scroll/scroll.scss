@@ -1,0 +1,74 @@
+.glint-scroll-container {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  overflow: hidden;
+  z-index: 2;
+
+	// ---- spacer ----
+  .scroll-spacer {
+    width: 4px;
+    margin-top: 15px;
+  }
+
+	// ---- scroll down and up ----
+  .scroll-down,
+  .scroll-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0px 10px;
+    min-height: 80px;
+  }
+  .scroll-down {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 5px;
+  }
+  .scroll-up {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    width: 90px;
+  }
+
+	// ---- button style ----
+  .scroll-icon {
+    font-size: 1rem;
+  }
+  button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 3px;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+// ---- responsive ----
+@media screen and (max-width: 576px) {
+  .glint-scroll-container {
+    display: none;
+  }
+}

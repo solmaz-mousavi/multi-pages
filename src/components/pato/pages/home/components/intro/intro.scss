@@ -1,0 +1,39 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-home-intro-container {
+  background-color: #fff;
+
+  .pato-home-intro-content {
+    @include flex-align-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+    .pato-home-intro-content-container {
+      .pato-home-intro-content__image {
+        width: 250px;
+      }
+      .pato-home-intro-content__title {
+        margin: 15px 0;
+        width: 250px;
+      }
+      .pato-home-intro-content__desc {
+        max-width: 250px;
+      }
+      .pato-home-intro-content__btn {
+        background-color: transparent;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: #777;
+        padding: 20px 0;
+        cursor: pointer;
+        -webkit-transition: $main-transition;
+        -o-transition: $main-transition;
+        transition: $main-transition;
+        &:hover {
+          color: $pato-color-red;
+        }
+      }
+    }
+  }
+}

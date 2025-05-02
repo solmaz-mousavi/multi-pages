@@ -1,0 +1,66 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-home-blog-container {
+  background-color: #efefef;
+  padding: 50px 0;
+
+  .pato-home-blog-header {
+    text-align: center;
+    .pato-top-title {
+      color: $pato-color-red;
+    }
+    .pato-title {
+      color: #000;
+    }
+  }
+
+  .pato-home-blog-content {
+    @include flex-align-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    gap: 30px;
+    .pato-home-blog-content-container {
+      .pato-image-hover-wrapper {
+        position: relative;
+
+        .pato-home-blog-content__image {
+          width: 250px;
+        }
+        .pato-home-blog-content__date {
+          position: absolute;
+          bottom: 10px;
+          left: 7px;
+          font-size: 0.9rem;
+          padding: 0 5px;
+          background-color: rgba(0, 0, 0, 0.5);
+          border-radius: 5px;
+          color: #fff;
+        }
+      }
+      .pato-home-blog-content__title {
+        margin: 15px 0;
+        width: 250px;
+      }
+      .pato-home-blog-content__desc {
+        max-width: 250px;
+        max-height: 75px;
+        overflow: hidden;
+      }
+      .pato-home-blog-content__btn {
+        background-color: transparent;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: #777;
+        padding: 20px 0;
+        -webkit-transition: $main-transition;
+        -o-transition: $main-transition;
+        transition: $main-transition;
+        cursor: pointer;
+        &:hover {
+          color: $pato-color-red;
+        }
+      }
+    }
+  }
+}

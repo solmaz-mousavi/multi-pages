@@ -1,0 +1,104 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-navbar-wrapper {
+  @include flex-center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  padding: 5px 20px;
+  -webkit-transition: $main-transition;
+  -o-transition: $main-transition;
+  transition: $main-transition;
+  &.blured {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.4);
+    .pato-logo {
+      height: 35px;
+    }
+  }
+  .pato-logo {
+    margin-right: 60px;
+    height: 50px;
+    -webkit-transition: $main-transition;
+    -o-transition: $main-transition;
+    transition: $main-transition;
+    img {
+      height: 100%;
+      -webkit-transition: $main-transition;
+      -o-transition: $main-transition;
+      transition: $main-transition;
+    }
+  }
+  .pato-navbar-container {
+    .pato-navbar-link {
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      padding: 5px 20px;
+      -webkit-transition: $main-transition;
+      -o-transition: $main-transition;
+      transition: $main-transition;
+      font-size: 0.9rem;
+      color: #fff;
+      &:hover {
+        color: $pato-color-red;
+      }
+    }
+    .pato-navbar-link.active {
+      color: $pato-color-red;
+    }
+  }
+  .pato-social-container {
+    .pato-navbar-social-icon {
+      color: #fff;
+      margin: 0px 10px;
+      -webkit-transition: $main-transition;
+      -o-transition: $main-transition;
+      transition: $main-transition;
+      cursor: pointer;
+      &:hover {
+        color: $pato-color-red;
+      }
+    }
+  }
+  .pato-showSidebar-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin: 0 10px;
+    cursor: pointer;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pato-navbar-wrapper {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    .pato-social-container {
+      display: none;
+    }
+    .pato-navbar-container {
+      display: none;
+    }
+    .pato-showSidebar-icon {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pato-navbar-wrapper {
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .pato-navbar-wrapper {
+    top: 40px;
+  }
+}

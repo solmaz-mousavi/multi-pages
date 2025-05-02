@@ -1,0 +1,62 @@
+@use "/src/styles/global.scss" as *;
+
+// ---- dynamic input styles ----
+@mixin inputColor($color) {
+  background-color: transparentize($color, 0.9);
+  &.border:focus {
+    border-color: $color;
+  }
+}
+
+// ---- input common styles ----
+.input {
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -webkit-transition: $main-transition;
+  -o-transition: $main-transition;
+  transition: $main-transition;
+  color: #fff;
+}
+
+// ---- input color setting by mixin ---
+.input.light {
+  @include inputColor(#e6e6e6);
+}
+
+.input.dark {
+  @include inputColor(#2b2b2b);
+}
+
+.input.success {
+  @include inputColor(#1d793a);
+}
+
+.input.info {
+  @include inputColor(#1b5579);
+}
+.input.error {
+  @include inputColor(#6e1414);
+}
+.input.warning {
+  @include inputColor(#6c4d16);
+}
+
+.input.grey {
+  @include inputColor(#8d8d8d);
+}
+
+.input.transparent {
+	background-color: transparent;
+}
+
+// ---- border ----
+.input.border {
+  border: 1px solid #777;
+}
+
+// ---- width ----
+.input.fullWidth {
+  width: 100%;
+}

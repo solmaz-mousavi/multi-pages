@@ -1,0 +1,16 @@
+@use "/src/styles/global.scss" as *;
+
+.academia-home-blog-container {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+  text-align: center;
+  .academia-container {
+    .academia-home-blog-content {
+      @include flex-center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 20px;
+      text-align: left;
+    }
+  }
+}

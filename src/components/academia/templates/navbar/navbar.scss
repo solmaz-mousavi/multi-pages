@@ -1,0 +1,140 @@
+@use "/src/styles/global.scss" as *;
+
+.academia-navbar-wrapper {
+  @include flex-space-between;
+  max-height: 70px;
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+
+  .academia-navbar-container {
+    height: 100%;
+    -webkit-transition: $main-transition;
+    -o-transition: $main-transition;
+    transition: $main-transition;
+    .academia-navbar-link {
+      font-size: 1rem;
+      padding: 0 20px;
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 500;
+      line-height: 70px;
+      &.active {
+        color: $academia-color;
+      }
+    }
+    .academia-social-container {
+      margin: 20px 0;
+      display: none;
+    }
+    .academia-header-item-container {
+      display: none;
+    }
+  }
+  .academia-navbar-right {
+    .academia-toptitle {
+      position: relative;
+      width: 250px;
+      padding: 0 1.5rem;
+      line-height: 70px;
+      text-align: center;
+      background-color: #1eb2a6;
+      color: #fff;
+      &::after {
+        content: "";
+        position: absolute;
+        left: -25px;
+        top: 0;
+        bottom: 0;
+        width: 25px;
+        height: 100%;
+        background-color: transparent;
+        border-bottom: 68px solid $academia-color;
+        border-left: 25px solid transparent;
+      }
+    }
+  }
+  .academia-dropdown {
+    color: #fff;
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 1.5rem;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .academia-navbar-wrapper {
+    max-height: 50px;
+
+    .academia-navbar-right .academia-toptitle {
+      padding: 0;
+      width: 200px;
+      line-height: 50px;
+      font-size: 1rem;
+      &::after {
+        border-bottom: 48px solid $academia-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .academia-navbar-wrapper {
+    top: 60px;
+    .academia-navbar-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      height: auto;
+      border-radius: 0 0 5px 5px;
+      position: absolute;
+      left: 0;
+      top: 30px;
+      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px);
+      opacity: 0;
+      visibility: hidden;
+      &.show {
+        visibility: visible;
+        opacity: 1;
+        top: 50px;
+      }
+      .academia-navbar-link {
+        line-height: 30px;
+        color: #333;
+      }
+      .academia-social-container {
+        display: block;
+      }
+      .academia-header-item-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+    }
+    .academia-dropdown {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .academia-navbar-wrapper {
+    .academia-navbar-right {
+      .academia-toptitle {
+        width: 150px;
+        padding: 0;
+        font-size: 0.7rem !important;
+      }
+    }
+  }
+}

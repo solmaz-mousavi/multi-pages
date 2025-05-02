@@ -1,0 +1,194 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-footer-wrapper {
+  background-color: #222;
+  color: #777;
+  padding-top: 50px;
+  .pato-footer-container {
+    @include flex-align-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .pato-footer-item {
+      padding: 20px;
+      .pato-footer-title {
+        color: #fff;
+        padding: 20px 0;
+        text-transform: uppercase;
+      }
+      .pato-footer-desc {
+        padding-bottom: 5px;
+        svg {
+          color: #fff;
+          margin-right: 5px;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #777;
+      }
+
+      .pato-footer-social-container {
+        margin: 10px 0;
+        .pato-footer-social-icon {
+          margin-right: 15px;
+          cursor: pointer;
+          color: #fff;
+        }
+      }
+      .form-wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        .input-container {
+          position: relative;
+          .footer-input {
+            padding: 10px;
+          }
+          .footer-label {
+            position: absolute;
+            right: 10px;
+            top: 3px;
+            font-size: 1.5rem;
+          }
+        }
+        .btn {
+          border: none;
+        }
+      }
+      .pato-footer-gallery-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .pato-footer-gallery-item {
+          position: relative;
+          margin: 5px;
+          height: -webkit-max-content;
+          height: -moz-max-content;
+          height: max-content;
+          width: 80px;
+          height: 80px;
+          overflow: hidden;
+
+          img {
+            -o-object-fit: cover;
+            object-fit: cover;
+            -o-object-position: center;
+            object-position: center;
+            height: 100%;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: transparentize($pato-color-red, 0.3);
+            opacity: 0;
+            -webkit-transition: $main-transition;
+            -o-transition: $main-transition;
+            transition: $main-transition;
+            cursor: pointer;
+          }
+          &:hover.pato-footer-gallery-item::after {
+            opacity: 1;
+          }
+        }
+      }
+      .pato-footer-gallery-container > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+      }
+      .pato-footer-gallery-container > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+      }
+      .pato-footer-gallery-container > *:nth-child(3) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+      }
+      .pato-footer-gallery-container > *:nth-child(4) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 4;
+      }
+      .pato-footer-gallery-container > *:nth-child(5) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+      }
+      .pato-footer-gallery-container > *:nth-child(6) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+      }
+      .pato-footer-gallery-container > *:nth-child(7) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 3;
+      }
+      .pato-footer-gallery-container > *:nth-child(8) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 4;
+      }
+    }
+  }
+  .footer-bottom p {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .pato-footer-wrapper {
+    .pato-footer-container {
+      .pato-footer-item {
+        max-width: 220px;
+        width: 220px;
+      }
+      .pato-footer-item:last-child {
+        max-width: 400px;
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .pato-footer-wrapper {
+    .pato-footer-container {
+      .pato-footer-item:first-child {
+        max-width: 440px;
+        width: 440px;
+      }
+
+      .pato-footer-item:last-child {
+        max-width: 400px;
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pato-footer-wrapper {
+    .pato-footer-container {
+      .pato-footer-item {
+        max-width: 100%;
+        width: 100%;
+
+        .pato-footer-gallery-container {
+          .pato-footer-gallery-item {
+            width: 62px;
+            height: 62px;
+            margin: 2px;
+          }
+        }
+      }
+
+      .pato-footer-item:last-child {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

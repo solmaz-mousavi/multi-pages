@@ -1,0 +1,125 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-about-container {
+  background-color: #f3efea;
+  text-align: center;
+
+  .pato-about-item-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 100%;
+    .pato-top-title {
+      color: $pato-color-red;
+    }
+    .pato-title {
+      margin-bottom: 30px;
+    }
+    .pato-about-item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      gap: 100px;
+      margin: 100px auto;
+      .pato-about-details {
+        @include flex-center-column;
+        width: 500px;
+        .pato-top-title {
+          color: $pato-color-red;
+        }
+      }
+      .pato-image-hover-wrapper {
+        width: 400px;
+        height: 400px;
+      }
+    }
+    .pato-about-chef-wrapper {
+      @include flex-center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .pato-about-container {
+    .pato-about-item-container {
+      .pato-about-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 50px auto;
+        .pato-about-details {
+          width: 300px;
+          * {
+            width: 300px;
+            letter-spacing: normal;
+          }
+        }
+        .pato-image-hover-wrapper {
+          width: 300px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pato-about-container {
+    .pato-about-item-container {
+      .pato-about-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 50px auto;
+        text-align: center;
+        .pato-about-details {
+          width: 80%;
+          margin: 0 auto;
+          * {
+            width: 80%;
+          }
+        }
+        .pato-image-hover-wrapper {
+          width: 60%;
+          height: auto;
+          margin: 0 auto;
+          img {
+            aspect-ratio: 2/1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .pato-about-container {
+    .pato-about-item-container {
+      .pato-about-item {
+        .pato-about-details {
+          width: 90%;
+          * {
+            width: 90%;
+          }
+        }
+        .pato-image-hover-wrapper {
+          width: 80%;
+        }
+      }
+    }
+  }
+}

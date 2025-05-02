@@ -1,0 +1,144 @@
+@use "/src/styles/global.scss" as *;
+
+.main-guidbox-wrapper {
+  position: relative;
+  z-index: 20;
+
+  // ------------- guid box common styles -------------
+  .guidbox {
+    @include fullscreen;
+    position: fixed;
+    inset: 0;
+    background-color: transparent;
+    -webkit-transition: $main-transition;
+    -o-transition: $main-transition;
+    transition: $main-transition;
+    .guidbox-arrow-top {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      width: 170px;
+      height: 60px;
+      border-radius: 10px;
+      border: 2px dashed #fff;
+    }
+    .guidbox-arrow-bottom {
+      position: relative;
+      top: 0px;
+      width: 120px;
+      height: 30px;
+      border-bottom: 2px dashed #fff;
+    }
+    .guidbox-message {
+      position: relative;
+      top: -15px;
+      text-wrap: nowrap;
+      overflow: visible;
+      color: #fff;
+    }
+    .guidbox-btn {
+      position: relative;
+      top: -10px;
+      color: rgba(255, 255, 0, 0.5);
+      font-size: 1.1rem;
+      font-weight: 500;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        color: yellow;
+      }
+    }
+  }
+  // ------------- guid user - how to see other projects -------------
+  .guidbox-1 {
+    border-left: 20px solid rgba(0, 0, 0, 0.7);
+    border-right: calc(100vw - 190px) solid rgba(0, 0, 0, 0.7);
+    border-bottom: calc(100vh - 60px) solid rgba(0, 0, 0, 0.7);
+    .guidbox1-arrow-bottom {
+      left: 50px;
+      border-radius: 0px 0px 0px 10px;
+      border-left: 2px dashed #fff;
+    }
+    .guidbox1-message {
+      left: 180px;
+    }
+    .guidbox1-btn {
+      left: 360px;
+    }
+  }
+
+  // ------------- guid user - how to see contact information -------------
+  .guidbox-2 {
+    border-left: calc(100vw - 190px) solid rgba(0, 0, 0, 0.7);
+    border-right: 20px solid rgba(0, 0, 0, 0.7);
+    border-bottom: calc(100vh - 60px) solid rgba(0, 0, 0, 0.7);
+    .guidbox2-arrow-bottom {
+      right: 0px;
+      border-radius: 0px 0px 10px 0px;
+      border-right: 2px dashed #fff;
+    }
+    .guidbox2-message {
+      right: 230px;
+    }
+    .guidbox2-btn {
+      right: 230px;
+    }
+  }
+
+  .hidden {
+    opacity: 0;
+    display: none;
+  }
+}
+
+// ---- responsive ----
+@media screen and (max-width: 764px) {
+  .main-guidbox-wrapper {
+    .guidbox {
+      .guidbox-arrow-top {
+        height: 50px;
+      }
+      .guidbox-arrow-bottom {
+        width: 0px;
+        height: 100px;
+      }
+      .guidbox-message {
+        top: 15px;
+      }
+      .guidbox-btn {
+        top: 20px;
+      }
+    }
+    .guidbox-1 {
+      .guidbox1-message {
+        left: 10px;
+      }
+      .guidbox1-btn {
+        left: 150px;
+      }
+    }
+
+    .guidbox-2 {
+      .guidbox2-arrow-bottom {
+        right: -80px;
+      }
+      .guidbox2-message {
+        right: 100px;
+      }
+      .guidbox2-btn {
+        right: -55px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .main-guidbox-wrapper {
+    .guidbox {
+      .guidbox-arrow-top {
+        height: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@use "/src/styles/global.scss" as *;
+
+.glint-services-container {
+  @include flex-center-column;
+  background-color: #fff;
+  text-align: center;
+
+	// ---- title ----
+  .services-header {
+    padding: 0px 10%;
+    .services-header__top {
+      color: $glint-color-green;
+    }
+    .services-header__title {
+      padding-bottom: 20px;
+    }
+  }
+
+	// ---- content ----
+  .service-item-container {
+    @include flex-center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 20px 0px;
+		margin: 0 auto;
+
+    .service-item-thumbnail {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      padding: 10px;
+      width: 45%;
+
+      .service-item-icon {
+        font-size: 2.2rem;
+        margin-top: 10px;
+        color: $glint-color-green;
+      }
+
+      .service-item__desc {
+        padding-left: 10px;
+        h5 {
+          font-size: 1.7rem;
+          text-align: left;
+        }
+        p {
+          font-size: 1rem;
+          color: $main-color-gray;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+// ---- responsive ----
+@media screen and (max-width: 768px) {
+  .glint-services-container {
+    .service-item-container {
+      padding: 20px;
+      & > div {
+        width: 100%;
+      }
+      .service-item-thumbnail {
+        width: 100%;
+        .service-item__desc {
+          padding-left: 10px;
+          h5 {
+            font-size: 1.1rem;
+          }
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-home-welcome-container {
+  @include flex-center;
+  padding: 50px;
+  background-color: #eee;
+	& > div{
+		max-width: 500px;
+	}
+  .pato-home-welcome__txt {
+    text-align: center;
+    padding: 40px;
+		
+    .pato-home-welcome__txt-title {
+      margin-bottom: 10px;
+      color: $pato-color-red;
+    }
+    .pato-home-welcome__txt-desc {
+      max-width: 400px;
+    }
+  }
+  .pato-home-welcome__img {
+    margin: 0 50px;
+		
+    img {
+      max-width: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .pato-home-welcome-container {
+    padding: 50px 10px;
+    .pato-home-welcome__img {
+      margin: 0 20px;
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .pato-home-welcome-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

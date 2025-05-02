@@ -1,0 +1,129 @@
+// @use "/src/styles/global.scss" as *;
+@import "/src/styles/global.scss";
+.main-contactInfo-container {
+  @include flex-justify-start;
+  width: 100%;
+  background-color: $main-color-gray;
+  -webkit-transition: $main-transition;
+  -o-transition: $main-transition;
+  transition: $main-transition;
+  padding: 10px 50px;
+  position: fixed;
+
+	// ------------- image -------------
+  .contactInfo-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+
+	// ------------- contact info -------------
+  .contactInfo-info {
+    @include flex-center;
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    gap: 50px;
+    padding-left: 30px;
+
+    .main-contactInfo-name,
+    .contactInfo-contact {
+      padding-bottom: 20px;
+      text-align: center;
+      color: $main-color-gray-light;
+    }
+  }
+
+	// ------------- skills -------------
+  .contactInfo-package {
+    text-align: left;
+    padding-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    p {
+      color: #fff;
+      margin-right: 5px;
+    }
+    .skills-thumbnail {
+      padding: 0 5px;
+      * {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+// ------------- links -------------
+.main-contactInfo-phone,
+.main-contactInfo-email,
+.main-contactInfo-name {
+  .icon {
+    color: #fff;
+    margin: 0px 2px;
+  }
+  a {
+    text-decoration: none;
+    color: $main-color-gray-semi-light !important;
+  }
+}
+
+// ------------- responsive styles -------------
+@media screen and (max-width: 768px) {
+  .main-contactInfo-container {
+    padding: 5px 20px;
+    .contactInfo-image img {
+      width: 80px;
+      height: 80px;
+    }
+    .contactInfo-info {
+      padding-left: 10px;
+      gap: 30px;
+      .main-contactInfo-name,
+      .contactInfo-contact {
+        padding-bottom: 20px;
+        font-size: 0.8rem;
+      }
+    }
+    .contactInfo-package {
+      padding-left: 20px;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-contactInfo-container {
+    padding: 5px 30px;
+    padding-bottom: 60px;
+    .contactInfo-image {
+      width: 30%;
+      text-align: center;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .contactInfo-info {
+      padding-left: 10px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      gap: 0px;
+      .main-contactInfo-name,
+      .contactInfo-contact {
+        padding-bottom: 0px;
+      }
+    }
+    .contactInfo-package {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      padding-left: 10px;
+    }
+  }
+}

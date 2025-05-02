@@ -1,0 +1,47 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-blog-thumb-container {
+  @include flex-align-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 700px;
+  margin: 30px 0 50px auto;
+  position: relative;
+
+	.pato-blog-description {
+    text-align: justify;
+    height: 45px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+  .pato-desc {
+    color: #adadad;
+    font-size: 0.9rem;
+  }
+  .btn {
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  .pato-blog-date {
+    background-color: $pato-color-red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.85rem;
+    .day {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      font-weight: bold;
+    }
+  }
+}

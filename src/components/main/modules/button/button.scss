@@ -1,0 +1,211 @@
+@use "/src/styles/global.scss" as *;
+
+// ---- dynamic button styles ----
+@mixin buttonColor($color) {
+  background-color: transparentize($color, 0.9);
+  border-color: $color;
+  * {
+    color: $color;
+  }
+  &:hover {
+    background-color: $color;
+    * {
+      @if (lightness($color) >= 50%) {
+        color: darken($color, 40%);
+      } @else {
+        color: lighten($color, 40%);
+      }
+    }
+  }
+}
+
+// ---- button common styles ----
+.btn {
+  @include flex-center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 5px;
+  position: relative;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-transition: $main-transition;
+  -o-transition: $main-transition;
+  transition: $main-transition;
+  cursor: pointer;
+  * {
+    font-size: 1rem;
+  }
+  &:has(.text) {
+    padding: 5px 30px;
+  }
+  .tooltip {
+    position: absolute;
+    -webkit-transition: right 400ms ease-out, left 400ms ease-out,
+      top 400ms ease-out, bottom 400ms ease-out;
+    -o-transition: right 400ms ease-out, left 400ms ease-out, top 400ms ease-out,
+      bottom 400ms ease-out;
+    transition: right 400ms ease-out, left 400ms ease-out, top 400ms ease-out,
+      bottom 400ms ease-out;
+    opacity: 0;
+    inset: 0;
+  }
+  &:hover .tooltip {
+    opacity: 1;
+  }
+  &:hover .left {
+    right: calc(100% + 10px);
+    left: auto;
+  }
+  &:hover .right {
+    left: calc(100% + 10px);
+    right: auto;
+  }
+  &:hover .top {
+    bottom: calc(100% + 10px);
+    top: auto;
+  }
+  &:hover .bottom {
+    top: calc(100% + 10px);
+    bottom: auto;
+  }
+}
+
+// ---- button color setting by mixin ---
+.btn.light {
+  @include buttonColor(#e6e6e6);
+}
+
+.btn.dark {
+  @include buttonColor(#343030);
+}
+
+.btn.success {
+  @include buttonColor(#7de39d);
+}
+
+.btn.info {
+  @include buttonColor(#7abbe6);
+}
+.btn.error {
+  @include buttonColor(#da7171);
+}
+.btn.warning {
+  @include buttonColor(#e9b555);
+}
+
+.btn.grey {
+  @include buttonColor(#777);
+}
+
+.btn.transparent {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+// ---- button setting --> pato project ---
+.btn.pato-dark {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 10px 40px;
+  * {
+    font-size: 0.9rem;
+  }
+  &:hover {
+    background-color: $pato-color-red;
+  }
+}
+.btn.pato-light {
+  background-color: #fff;
+  color: $pato-color-red;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 10px 40px;
+  * {
+    font-size: 0.9rem;
+  }
+  &:hover {
+    background-color: $pato-color-red;
+    color: #fff;
+  }
+}
+.btn.pato-transparent {
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #777;
+  padding: 20px 0;
+  cursor: pointer;
+  -webkit-transition: $main-transition;
+  -o-transition: $main-transition;
+  transition: $main-transition;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  * {
+    font-size: 0.9rem;
+  }
+  &:hover {
+    color: $pato-color-red;
+  }
+}
+
+// ---- button setting --> academia project ---
+.btn.academia-light {
+  font-weight: bold;
+  background-color: #fff;
+  color: $academia-color;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 16px 24px;
+  border-radius: 5px;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  flex-direction: row-reverse;
+  cursor: pointer;
+  * {
+    font-size: 0.7rem;
+  }
+}
+.btn.academia-border {
+  border: 1px solid $academia-color;
+}
+.btn.academia-hover-aqua:hover {
+  background-color: $academia-color;
+  color: #fff;
+}
+.btn.academia-aqua {
+  background-color: $academia-color;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 16px 24px;
+  border-radius: 5px;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  flex-direction: row-reverse;
+  cursor: pointer;
+  * {
+    font-size: 0.7rem;
+  }
+}
+
+// ---- width ----
+.btn.fullWidth {
+  width: 100%;
+}
+
+// ---- border ----
+.btn.border {
+  border-width: 1px;
+  border-style: solid;
+}
+// ---- round btn ----
+.btn.round {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}

@@ -1,0 +1,84 @@
+@use "/src/styles/global.scss" as *;
+
+.academia-package-thumb-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  position: relative;
+
+  .academia-avatar {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .academia-title-sm {
+    margin-bottom: 20px;
+  }
+
+  .academia-package-course-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    .academia-desc {
+      line-height: 30px;
+    }
+
+    .price {
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 0.9rem;
+      line-height: 30px;
+      position: absolute;
+      right: 5px;
+      top: 0;
+      bottom: 0;
+    }
+  }
+
+  .academia-package-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    * {
+      font-size: 0.9rem;
+      color: yellow;
+    }
+  }
+
+  .academia-package-purchased {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    color: $academia-color;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .academia-package-thumb-container {
+    width: 280px;
+    .academia-package-course-container .academia-desc {
+      line-height: 1;
+      padding-right: 40px;
+      text-align: left;
+    }
+  }
+}

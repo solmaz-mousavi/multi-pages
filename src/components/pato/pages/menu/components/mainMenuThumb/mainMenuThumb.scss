@@ -1,0 +1,53 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-menu-item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  .menu-item-image {
+    @include flex-center;
+    width: 160px;
+    height: 120px;
+    border-radius: 5px;
+    overflow: hidden;
+    img {
+      height: 100%;
+    }
+  }
+
+  .menu-item-details {
+    position: relative;
+    padding: 15px;
+    .menu-item-title {
+      text-transform: uppercase;
+    }
+    .menu-item-desc {
+      font-size: 0.85rem;
+    }
+    .menu-item-price {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: #333;
+      font-size: 1.3rem;
+      letter-spacing: -0.1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .pato-menu-item-container {
+    padding: 10px 0;
+    .menu-item-image {
+      width: 80px;
+      height: 80px;
+      min-width: 80px;
+    }
+    .menu-item-details {
+      padding: 5px;
+      .menu-item-price {
+        position: static;
+      }
+    }
+  }
+}

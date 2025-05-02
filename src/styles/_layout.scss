@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "Inter";
+  src: local("inter"),
+    url("../../public/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf")
+      format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("roboto"),
+    url("../../public/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf")
+      format("ttf");
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  height: 100vh;
+  background-color: #727272;
+  line-height: 1.5;
+}
+
+*,
+body,
+html {
+  font-family: Roboto, Inter, Tahoma, sans-serif;
+}
+
+.fullWidth {
+  display: block;
+  width: 100% !important;
+}
+
+.main-wrapper{
+	max-height: auto;
+	transition: max-height 1s ease-in;
+}
+
+// ---- animation for aos comp 
+.animate__animated,
+.animate__fadeInUp {
+  position: relative;
+  z-index: 0 !important;
+}
+
+// ---- projects wrapper ----
+#glint, #pato, #academia {
+  overflow-y: auto;
+  height: calc(100vh - 60px);
+  scroll-behavior: smooth;
+	position: relative;
+}

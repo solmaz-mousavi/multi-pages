@@ -1,0 +1,20 @@
+@use "/src/styles/global.scss" as *;
+
+.academia-status-thumb {
+	@include flex-center;
+	gap: 20px;
+
+	.academia-status-details {
+		.academia-status-count {
+			color: #fff;
+			font-size: 2.5rem;
+			font-weight: 700;
+			line-height: 1;
+		}
+		.academia-desc {
+			text-transform: uppercase;
+			font-weight: normal;
+			letter-spacing: 1px;
+		}
+	}
+}

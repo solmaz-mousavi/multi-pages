@@ -1,0 +1,124 @@
+@use "/src/styles/global.scss" as *;
+
+.academia-header-wrapper {
+  @include flex-space-between;
+  height: 90px;
+  padding: 20px 0;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+
+  .academia-header-left {
+    @include flex-center;
+    gap: 30px;
+    * {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9rem;
+    }
+
+    // user info:
+    .academia-header-userInfo-container {
+      @include flex-center;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-right: 5px;
+      }
+      .name {
+        margin-right: 30px;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .academia-header-right {
+    @include flex-center;
+    gap: 20px;
+
+    // logo:
+    .academia-header-logo-container {
+      position: relative;
+      line-height: 1.1;
+      text-transform: uppercase;
+      text-align: right;
+      .header-logo {
+        font-weight: 800;
+        font-size: 1.875rem;
+        position: relative;
+        -webkit-transition: $main-transition;
+        -o-transition: $main-transition;
+        transition: $main-transition;
+        &:hover {
+          color: $academia-color;
+        }
+      }
+      p {
+        font-size: 0.75rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .academia-header-wrapper {
+    height: 60px;
+    .academia-header-left {
+      .academia-header-userInfo-container {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        gap: 5px;
+        img {
+          width: 30px;
+          height: 30px;
+          margin-right: 0;
+        }
+        .name {
+          font-size: 0.9rem;
+          margin-right: 10px;
+        }
+      }
+
+      .academia-header-item-container {
+        display: none;
+      }
+    }
+
+    .academia-header-right {
+      .academia-header-logo-container {
+        .header-logo {
+          font-weight: 800;
+          font-size: 1.2rem;
+        }
+        p {
+          font-size: 0.7rem;
+        }
+      }
+      .academia-social-container {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .academia-header-wrapper {
+    .academia-header-left {
+      .academia-header-userInfo-container {
+        .name {
+          display: none;
+        }
+      }
+    }
+  }
+}

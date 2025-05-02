@@ -1,0 +1,140 @@
+@use "/src/styles/global.scss" as *;
+
+// ---- background style ----
+.glint-contacts-container {
+  height: calc(100vh - 60px);
+  background-color: #000;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url("../../../../../public/assets/images/glint/contact-bg.jpg");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../../../public/assets/images/glint/contact-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../../../public/assets/images/glint/contact-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  padding-top: 90px !important;
+  height: auto !important;
+  .decoration {
+    height: 80px;
+    width: 1px;
+    border: 1px solid $glint-color-green;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding-top: 20px;
+  }
+
+	// ---- title ----
+  .contacts-header {
+    text-align: center;
+    .contacts-header__title {
+      color: #fff;
+    }
+    .contacts-header__top {
+      color: $glint-color-green;
+    }
+  }
+  .contacts-bottom-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 40px;
+
+		// ---- form ----
+    .form-container {
+      width: 65%;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+		// ---- contact info ----
+    .info-container {
+      width: 35%;
+      padding: 20px;
+      background-color: #000;
+      .info-top-title {
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: #fff;
+        padding: 20px 0px;
+        font-size: 0.9rem;
+      }
+      .info-title {
+        color: $glint-color-green;
+        padding-bottom: 10px;
+        font-size: 1.1rem;
+      }
+      .info-desc {
+        color: #555;
+        line-height: 1.5rem;
+        padding-bottom: 40px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+	// ---- social btns ----
+  .social-container {
+    .contacts-info-social {
+      margin-right: 10px;
+			color: #fff;
+      &:hover * {
+        color: $glint-color-green;
+      }
+      .tooltip {
+        color: rgba(255, 255, 255, 0.5) !important;
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+	// ---- form styles ----
+  .contacts-input {
+    border-bottom: 1px solid #555;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    &:focus {
+      border-bottom: 1px solid $glint-color-green;
+    }
+  }
+  .inputError {
+    position: relative;
+    top: -25px;
+    text-align: right !important;
+    color: $glint-color-green !important;
+  }
+  textarea {
+    height: 100px;
+  }
+}
+
+// ---- responsive ----
+@media screen and (max-width: 650px) {
+  .glint-contacts-container {
+    .contacts-bottom-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      .form-container {
+        width: 100%;
+      }
+      .info-container {
+        width: 100%;
+      }
+    }
+  }
+}

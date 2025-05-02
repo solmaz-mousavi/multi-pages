@@ -1,25 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import useFetch from "./hooks/useFetch";
+import Error from "./components/main/templates/error/Error";
+import Loader from "./components/main/templates/loader/Loader";
+import Header from "./components/main/templates/header/Header";
+import GuidBox from "./components/main/templates/guidBox/GuidBox";
+import Router from "./Router";
+import AuthProvider from "./contexts/AuthContext";
+import ModalProvider from "./contexts/ModalContext";
+import Modal from "./components/main/templates/modal/Modal";
 
 function App() {
+  const { mainData } = useFetch({
+    url: "data/maindb.json",
+    project: "main",
+  });
+  const [showGuidBox, setShowGuidBox] = useState<string>("");
+  useEffect(() => {
+    setShowGuidBox(localStorage.getItem("showGuidBox") || "true");
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* {error && <Error error={error} fullScreen={true} />} */}
+      {/* {pending && <Loader type="data" fullScreen={true} />} */}
+      {showGuidBox === "true" && <GuidBox />}
+      {mainData?.projects && (
+        <ModalProvider>
+          <Header data={mainData} />
+          <main id="main-wrapper">
+						<AuthProvider>
+            <Router />
+						</AuthProvider>
+          </main>
+					<Modal/>
+        </ModalProvider>
+      )}
+    </>
   );
 }
 

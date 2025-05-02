@@ -1,0 +1,119 @@
+@use "/src/styles/global.scss" as *;
+
+.glint-about-container {
+  background-color: $glint-color-green;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+
+	// ---- title ----
+  .about-header {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    .about-header__top {
+      color: #000;
+    }
+    .about-header__title {
+      color: #fff;
+    }
+  }
+
+	// ---- description ----
+  .about-description {
+    padding: 20px 10%;
+    font-size: 1.7rem;
+  }
+
+	// ---- status ----
+  .about-status-container {
+    @include flex-center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 50px 0px;
+    .about-status {
+      @include flex-center-column;
+      width: 300px;
+      .about-status__count {
+        font-size: 3rem;
+        line-height: 3rem;
+        color: #fff;
+        font-weight: 700;
+      }
+      .about-status__des {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-top: 10px;
+      }
+    }
+    .about-status:not(:last-child) {
+      border-right: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+// ---- responsive ----
+@media screen and (max-width: 1300px) {
+  .glint-about-container .about-status-container .about-status {
+    width: 200px;
+    .about-status__count {
+      font-size: 2.8rem;
+      line-height: 2.8rem;
+    }
+    .about-status__des {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .glint-about-container {
+    .about-description {
+      font-size: 1.2rem;
+    }
+    .about-status-container {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 500px;
+      .about-status {
+        margin-bottom: 10px;
+        .about-status__count {
+          font-size: 2.5rem;
+          line-height: 2.5rem;
+        }
+      }
+      .about-status:not(:last-child) {
+        border: none;
+      }
+      .about-status:nth-child(odd) {
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .glint-about-container {
+    .about-description {
+      font-size: 1rem;
+    }
+    .about-status-container {
+      width: 250px;
+      padding: 0;
+      .about-status {
+        margin: 0px;
+        padding: 20px;
+        .about-status__des {
+          font-size: 1rem;
+        }
+      }
+      .about-status:nth-child(odd) {
+        border: none;
+      }
+      .about-status:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}

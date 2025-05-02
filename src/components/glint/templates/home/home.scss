@@ -1,0 +1,144 @@
+@use "/src/styles/global.scss" as *;
+
+// ---- background style ----
+.glint-home-container {
+  height: calc(100vh - 60px);
+  background-color: #000;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url("../../../../../public/assets/images/glint/hero-bg.webp");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../../../public/assets/images/glint/hero-bg.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../../../public/assets/images/glint/hero-bg.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+	// ---- title and welcome text ---- 
+  .home-txt-container {
+    @include flex-align-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 0px 0px 20%;
+    .home-txt__welcome {
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .home-txt__description {
+      color: #fff;
+    }
+    .home-txt__btn-container {
+      margin-top: 80px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      .home-txt__btn {
+        width: 215px;
+        height: 54px;
+        margin-right: 20px;
+        text-transform: uppercase;
+        * {
+          font-size: 0.8rem !important;
+          letter-spacing: 0.1rem;
+        }
+        &:hover {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+
+	// ---- social btns ----
+  .home-social-container {
+    @include flex-center-column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    gap: 20px;
+    margin: 0px 50px;
+  }
+}
+
+// ---- resonsive ----
+@media screen and (max-width: 992px) {
+  .glint-home-container {
+    min-height: 480px;
+    padding: 80px 0px;
+    .home-txt-container {
+      padding-left: 10%;
+      .home-txt__btn-container {
+        margin-top: 40px;
+        .home-txt__btn {
+          width: 200px;
+          height: 50px;
+          a {
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+    .home-social-container {
+      margin-left: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .glint-home-container {
+    min-height: unset;
+    padding: 100px 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    .home-txt-container {
+      height: auto;
+      padding-left: 0px;
+      .home-txt__description {
+        padding: 0px 20px;
+      }
+      .home-txt__btn-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        .home-txt__btn {
+          display: block;
+          height: 40px;
+          margin: 5px auto;
+        }
+      }
+    }
+    .home-social-container {
+      margin: 20px 0px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+
+      .tooltip {
+        display: none;
+      }
+    }
+  }
+}

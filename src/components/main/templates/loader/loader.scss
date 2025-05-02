@@ -1,0 +1,18 @@
+@use "/src/styles/global.scss" as *;
+
+.main-loader-container {
+  @include full;
+  @include flex-center-column;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .loader-txt {
+    color: #3ca391;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+  }
+}
+
+.fullScreen {
+  @include fullscreen;
+}

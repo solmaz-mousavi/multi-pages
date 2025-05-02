@@ -1,0 +1,216 @@
+@use "/src/styles/global.scss" as *;
+
+.pato-home__events-container {
+  background-image: url(../../../../../../../public/assets/images/pato/home/intro/bg-intro.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px;
+  text-align: center;
+  .pato-home__events-header {
+    .pato-top-title {
+      color: $pato-color-red;
+    }
+    .pato-title {
+      color: #fff;
+    }
+  }
+  .pato-home__events-content {
+    width: 100%;
+    &:hover .swiper-button-prev:after,
+    &:hover .swiper-button-next:after {
+      opacity: 1;
+    }
+    .pato-home__events-item {
+      @include flex-align-start;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      padding: 50px 100px;
+
+      .pato-home__events-item-time {
+        background-color: $pato-color-red;
+        color: #fff;
+        -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+        padding: 20px;
+        border-radius: 10px 0 0 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+      }
+
+      .pato-home__events-item-image {
+        @include flex-align-start;
+        overflow: hidden;
+        max-width: 50%;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        img {
+          -o-object-fit: cover;
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+
+      .pato-home__events-item-details {
+        position: relative;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 0 10px 10px 0;
+        max-width: 600px;
+        .desc {
+          padding-top: 10px;
+          padding-bottom: 30px;
+        }
+        .remDayTxt {
+          text-transform: uppercase;
+          color: #777;
+          letter-spacing: 0.2rem;
+          padding-top: 30px;
+        }
+        .remainTime-container {
+          @include flex-justify-start;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          padding-top: 20px;
+
+          .remain-time {
+            color: $pato-color-red;
+            font-size: 4rem;
+            line-height: 3.5rem;
+            font-weight: bolder;
+          }
+          .remain-unit {
+            text-transform: uppercase;
+            color: #777;
+            letter-spacing: 0.2rem;
+          }
+        }
+        .btn {
+          position: absolute;
+          bottom: 10px;
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 50px !important;
+      height: 50px !important;
+      -webkit-transform: translateX(20px);
+      -ms-transform: translateX(20px);
+      transform: translateX(20px);
+    }
+    .swiper-button-next {
+      -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+      transform: translateX(-20px);
+    }
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+      @include flex-center;
+      width: 100%;
+      height: 100%;
+      font-size: 1rem;
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      -webkit-transition: $main-transition;
+      -o-transition: $main-transition;
+      transition: $main-transition;
+      opacity: 0;
+      &:hover {
+        background-color: transparentize($pato-color-red, 0.8);
+      }
+    }
+    .swiper-pagination-bullet {
+      background-color: rgba(255, 255, 255, 0.4);
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pato-home__events-container {
+    padding: 50px 20px;
+    .pato-home__events-content {
+      width: 100%;
+      &:hover .swiper-button-prev:after,
+      &:hover .swiper-button-next:after {
+        display: none;
+      }
+      .pato-home__events-item {
+        height: 350px;
+        padding: 50px 10px;
+        .pato-home__events-item-details {
+          padding: 10px;
+          max-width: 1000px;
+          width: 90%;
+          .desc {
+            padding: 10px;
+            padding-top: 0;
+            line-height: 0.9rem;
+          }
+          .remDayTxt {
+            padding-top: 10px;
+          }
+          .remainTime-container {
+            padding-top: 0px;
+            .remain-time {
+              padding-bottom: 50px;
+              font-size: 2rem;
+              line-height: 2rem;
+            }
+          }
+          .btn {
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pato-home__events-container {
+    padding: 50px 10px;
+    .pato-home__events-content {
+      .pato-home__events-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+        .pato-home__events-item-time {
+          -webkit-writing-mode: horizontal-tb;
+          -ms-writing-mode: lr-tb;
+          writing-mode: horizontal-tb;
+          font-size: 0.9rem;
+          border-radius: 10px 10px 0 0;
+        }
+        .pato-home__events-item-image {
+          @include flex-align-start;
+          max-width: 100%;
+          width: 100%;
+          aspect-ratio: 2/1;
+          img {
+            width: 100%;
+          }
+        }
+        .pato-home__events-item-details {
+          padding: 20px;
+          border-radius: 0 0 10px 10px;
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
