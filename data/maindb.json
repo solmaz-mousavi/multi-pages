@@ -10,13 +10,13 @@
 			"id": "01" ,
       "title": "glint",
       "image": "assets/images/main/glint.png",
-      "route": "",
+      "route": "/multi-pages/",
 			"description":"a landingPage created by 50lm@2",
       "packages": ["javascript", "reactJS", "typescript", "sass"]
     },
 		{
 			"id": "02" ,
-      "title": "Pato",
+      "title": "/multi-pages/Pato",
       "image": "assets/images/main/pato.png",
       "route": "pato/",
 			"description":"a restaurant page - created by 50lm@2",
@@ -26,7 +26,7 @@
 			"id": "03" ,
       "title": "academia",
       "image": "assets/images/main/academia.png",
-      "route": "academia/",
+      "route": "/multi-pages/academia/",
 			"description":"a landingPage created by 50lm@2",
       "packages": ["javascript", "reactJS", "typescript", "sass"]
     },
@@ -34,7 +34,7 @@
 			"id": "04" ,
       "title": "dashboard",
       "image": "assets/images/main/kakura.jpeg",
-      "route": "dashboard/",
+      "route": "/multi-pages/dashboard/",
 			"description":"a landingPage created by 50lm@2",
       "packages": ["reactJS", "typescript"]
     }
