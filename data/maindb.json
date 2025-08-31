@@ -29,14 +29,6 @@
       "route": "/multi-pages/academia/",
 			"description":"a landingPage created by 50lm@2",
       "packages": ["javascript", "reactJS", "typescript", "sass"]
-    },
-    {
-			"id": "04" ,
-      "title": "dashboard",
-      "image": "assets/images/main/kakura.jpeg",
-      "route": "/multi-pages/dashboard/",
-			"description":"a landingPage created by 50lm@2",
-      "packages": ["reactJS", "typescript"]
     }
   ]
 }
